@@ -573,10 +573,10 @@ var header_Header = function Header() {
     class: style.header
   }, Object(external_preact_["h"])("nav", null, Object(external_preact_["h"])(match["Link"], {
     activeClassName: style.active,
-    href: "/real-disability-test/"
+    href: "/"
   }, "home"), Object(external_preact_["h"])(match["Link"], {
     activeClassName: style.active,
-    href: "/real-disability-test/test/"
+    href: "/test/"
   }, "tests")));
 };
 /* harmony default export */ var header = (header_Header);
@@ -592,15 +592,15 @@ var home_Home = function Home() {
   }, Object(external_preact_["h"])("h1", null, "Get started and take a disability test"), Object(external_preact_["h"])("section", null, Object(external_preact_["h"])(home_Resource, {
     title: "autism test",
     description: "This test checks if you have autism",
-    link: "/real-disability-test/test/autism"
+    link: "/test/autism"
   }), Object(external_preact_["h"])(home_Resource, {
     title: "adhd test",
     description: "This test checks if you have adhd",
-    link: "/real-disability-test/test/adhd"
+    link: "/test/adhd"
   }), Object(external_preact_["h"])(home_Resource, {
     title: "dyslexia test",
     description: "this test checks if you have dyslexia",
-    link: "/real-disability-test/test/dyslexia"
+    link: "/test/dyslexia"
   })));
 };
 var home_Resource = function Resource(props) {
@@ -636,7 +636,7 @@ var disabilitytest_TestsComponents = function TestsComponents() {
     elements.push(Object(external_preact_["h"])(disabilitytest_Resource, {
       title: test.name,
       description: test.description,
-      link: "/real-disability-test/test/".concat(test.url)
+      link: "/test/".concat(test.url)
     }));
     elements.push(Object(external_preact_["h"])("br", null));
   }
