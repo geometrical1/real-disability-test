@@ -1043,13 +1043,13 @@ var app_App = function App() {
   return Object(external_preact_["h"])("div", {
     id: "app"
   }, Object(external_preact_["h"])(header, null), Object(external_preact_["h"])("main", null, Object(external_preact_["h"])(preact_router_es["Router"], null, Object(external_preact_["h"])(preact_router_es["Route"], {
-    path: "/",
+    path: "/real-disability-test/",
     component: home
   }), Object(external_preact_["h"])(preact_router_es["Route"], {
-    path: "/test/",
+    path: "/real-disability-test/test/",
     component: disabilitytest
   }), Object(external_preact_["h"])(preact_router_es["Route"], {
-    path: "/test/:test",
+    path: "/real-disability-test/test/:test",
     component: tests
   }))));
 };
